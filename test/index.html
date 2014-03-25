@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>aniPNG Test</title>
+		<style>
+		
+			* {margin:0;padding:0;font-weight: normal;}
+			img {border: 0;}
+			a {-webkit-tap-highlight-color: rgba(0,0,0,0.0);}
+			sup {position: absolute;margin-top:-0.4em;font-family: helvetica;font-weight: 100;font-size: 60%;}
+			body {
+				width: 1024px; max-width: 1024px; min-width: 1024px;
+				height: 748px; max-height: 748px; min-height: 748px;
+				background-color: #464646;
+				color: #e5e5e5;
+				font-family: sans-serif;
+				overflow: hidden;
+				font-size: 14px;
+			}
+
+			h1 { 
+				font-size: 2.5em;
+				line-height: 1.5em;
+				margin-bottom: 0.25em;
+				font-weight: normal;
+			}
+
+			p {
+				font-size: 1.1em;
+				line-height: 1.5em;
+				margin-bottom: 1.0em;
+			}
+
+			p.copy {
+				font-size: 0.9em;
+				color: #999;
+			}
+			.container {
+				position:relative;
+				overflow:hidden;
+				width: 984px;
+				height: 600px;
+				padding-top: 40px;
+				padding-left: 140px;
+			}
+
+			#sample {
+				position: relative;
+				z-index: 150;
+			}
+			
+
+		</style>
+		
+	</head>
+<body>
+			
+	<div class="container">				
+		
+		<h1>aniPNG Example</h1>
+
+		<p>Simple forward animation. Direction and callback commented out. Check "test.js" for instantiation and commented code.</p>
+
+		<div id="sample"></div>
+
+		<p class="copy"><br />Images copyright reapersrealm.com</p>
+		
+	</div>
+			
+	<script type="text/javascript" src="scripts/iva_base.js"></script>
+	<script type="text/javascript" src="../aniPNG.js"></script>
+	<script type="text/javascript" src="scripts/test.js"></script>
+</body>
+	
+</html>
