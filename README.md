@@ -1,5 +1,5 @@
-#Read Me
------------
+Read Me
+========
 
 aniPNG is an update to the great PNG animation script developed by <a href="http://www.squaregoldfish.co.uk/software/animatedpng" target="_blank">Steve Jones</a> - AnimatedPNG.js.
 
@@ -10,8 +10,8 @@ Some of the features that have been added are:
 
 * * *
 
-#aniPNG API
------------
+aniPNG API
+==========
 
 Constructor
 -----------
@@ -59,7 +59,7 @@ OR, you can chain the functions:
 
 
 ##CORE Methods##
------------
+
 
 ### draw        
                 
